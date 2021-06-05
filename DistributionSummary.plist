@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IT_assistant.ipa</key>
+	<array>
+		<dict>
+          <key>kind</key>
+          <string>software-package</string>
+          <key>url</key>
+          <string>https://inda.bjunicom.com.cn/im/app/ios/IT_assistant.ipa</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>display-image</string>
+          <key>needs-shine</key>
+          <true/>
+          <key>url</key>
+          <string>https://cdn-app-icon.pgyer.com/9/9/6/c/4/996c4c1e7a59a68bb64b271d51762299?x-oss-process=image/resize,m_lfit,h_120,w_120/format,jpg</string>
+        </dict>
+      </array>
+      <key>metadata</key>
+      <dict>
+        <key>bundle-identifier</key>
+        <string>com.xxxx.xxxx.xxxx</string>
+        <key>bundle-version</key>
+        <string>0.1.0</string>
+        <key>kind</key>
+        <string>software</string>
+        <key>title</key>
+        <string>智能助手</string>
+        <key>subtitle</key>
+        <string>智能助手</string>
+      </dict>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>E9566516DC0D62B3685FB5747A61321528143C09</string>
+				<key>dateExpires</key>
+				<string>2023/10/21</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>LYSG294283.com.hfvast.IT-assistant</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>LYSG294283</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>LYSG294283.com.hfvast.IT-assistant</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>智能助手.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>70992df9-9b4f-48e4-ab6d-1ffa99ad50ef</string>
+				<key>name</key>
+				<string>ITassistantInHouseDis2021</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>LYSG294283</string>
+				<key>name</key>
+				<string>Beijing Hfvast Technology Co. ,ltd.</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
